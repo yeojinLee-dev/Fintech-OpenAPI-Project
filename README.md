@@ -15,7 +15,7 @@
  > ### react
 ## 4. 설명
 1. Access Token을 통해 OAuth 2.0 인증 (2-legged, 3-legged 방식 이용)
-2. 금융결제원 API 명세서를 참고하여 테스트 OpenAPI 이용 
+2. 금융결제원 API 명세서를 참고하여 테스트 OpenAPI 이용, postman으로 API 테스트 진행
 3. React Axios로 http 통신
 ## 5. UI 
 #### 개인정보 부분은 가렸습니다.
