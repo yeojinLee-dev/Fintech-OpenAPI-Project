@@ -16,8 +16,8 @@ const AuthResultPage = () => {
   const handleGetAccessToeknClick = () => {
     const sendData = {
         code: code,
-        client_id:"q7kH44ThJwjpvNRg0BbJvE1yxvx5X53DKz1rNgPF",
-        client_secret:"yVT6irMr2h4ZTHzZY7sDpbvhm1nlOzr4nP7DYRVy",
+        client_id:" ",
+        client_secret:" ",
         redirect_uri:"http://localhost:3000/authResult",
         grant_type:"authorization_code",
     }

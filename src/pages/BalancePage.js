@@ -27,7 +27,7 @@ const BalancePage = () => {
 
   const genTransId = () => {
     let countnum = Math.floor(Math.random() * 1000000000) + 1;
-    let transId = "T991599190U" + countnum; //이용기관번호 본인것 입력
+    let transId = " " + countnum; 
     return transId;
   };
   

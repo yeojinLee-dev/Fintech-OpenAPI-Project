@@ -18,7 +18,7 @@ const NewsApiPage = () => {
 
   const searchButtonHandleClick = () => {
     // 검색 버튼을 클릭합니다.
-    // searchInput의 데이터를 가지고와 Axios 요청 작성
+    // searchInput의 데이터를 가지고와 Axios 요청
     console.log("click!")
     const url = `https://newsapi.org/v2/everything?q=${searchInput}&from=2022-04-18&sortBy=publishedAt&apiKey=78bc6ddd8cdb48ceac76f5f9b9dfc4c5`;
     axios.get(url).then((response) => {
