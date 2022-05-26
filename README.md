@@ -13,7 +13,11 @@
  > ### Node.js
  
  > ### react
-## 4. UI 
+## 4. 설명
+1. Access Token을 통해 OAuth 2.0 인증 (2-legged, 3-legged 방식 이용)
+2. 금융결제원 API 명세서를 참고하여 테스트 OpenAPI 이용 
+3. React Axios로 http 통신
+## 5. UI 
 #### 개인정보 부분은 가렸습니다.
 ![image](https://user-images.githubusercontent.com/80297591/170485781-fcb00778-a9f6-4917-9797-910603701248.png)
 ![image](https://user-images.githubusercontent.com/80297591/170485855-c8696aad-8e7c-4aa6-b07a-512320bbe130.png)
