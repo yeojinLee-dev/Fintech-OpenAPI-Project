@@ -27,4 +27,4 @@
 ![image](https://user-images.githubusercontent.com/80297591/170486154-38e03fe2-56da-4b63-8f69-3a13176d9d7d.png)
 ![image](https://user-images.githubusercontent.com/80297591/170486238-b6520beb-7658-4933-b39c-2b14fd829437.png)
 	
-#### 강의 : 유관우 대표
+#### 강의 : 유관우 대표님
