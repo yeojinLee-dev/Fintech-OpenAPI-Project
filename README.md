@@ -14,9 +14,22 @@
  
  > ### react
 ## 4. 설명
-1. Access Token을 통해 OAuth 2.0 인증 (2-legged, 3-legged 방식 이용)
-2. 금융결제원 API 명세서를 참고하여 테스트 OpenAPI 이용, postman으로 API 테스트 진행
-3. React Axios로 http 통신
+<aside>
+- 금융 결제원 테스트 OpenAPI를 이용하여 구현한 오픈뱅킹/간편결제 서비스
+- 주요 기능
+    - 사용자의 인증을 통해 AccessToken 발급
+    - 사용자의 전체 계좌 목록 / 계좌 상세 내역 조회
+    - 각각의 계좌에 대한 핀테크 번호를 나타내는 QR 코드 생성 및 리딩 가능
+    - 결제 금액을 입력하면 연결된 계좌로 입/출금 가능
+- 상세 내용
+    - 금융결제원 API 명세서를 참고하여 테스트 OpenAPI 이용
+    - React Axios로 http 통신
+    - 사용자 인증을 통해 AccessToken 발급
+        - Access Token을 통해 OAuth 2.0 인증 (2-legged, 3-legged 방식 이용)
+    - AccessToken을 통해 사용자의 모든 계좌 정보 접근 (오픈 뱅킹)
+    - 계좌 마다의 핀테크 번호를 이용하여 잔액 조회
+    - 각각의 계좌에 해당하는 QR 코드를 통해 간편 결제
+</aside>
 ## 5. UI 
 ![image](https://user-images.githubusercontent.com/80297591/170485781-fcb00778-a9f6-4917-9797-910603701248.png)
 ![image](https://user-images.githubusercontent.com/80297591/170485855-c8696aad-8e7c-4aa6-b07a-512320bbe130.png)
